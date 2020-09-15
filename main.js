@@ -391,6 +391,7 @@ const gameOver = (snakePosition)=>{
       resultStr += ":"+elm+": "
     }else{
       resultStr += "..."
+      break
     }
   }
   document.getElementById("share").onclick = ()=>{
